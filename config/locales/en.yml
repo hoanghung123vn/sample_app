@@ -6,6 +6,10 @@ en:
       intro1: "This is the home page for the"
       intro2: "sample application."
       ruby_on_rails_tutorial: "Ruby On Rails Tutorial"
+      welcome: "Welcome to the Sample App"
+      intro3: "This is the home page for the"
+      intro4: "sample application."
+      signup: "Sign up now!"
     help:
       title: "Help"
       intro1: "Get help on the Ruby on Rails Tutorial at the"
@@ -28,3 +32,23 @@ en:
       intro4: "to teach web development with"
       intro5: "This is the sample application for the tutorial."
   sample_app: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    footer:
+      the: "The"
+      by: "by"
+      name: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      news: "News"
+      about: "About"
+      contact: "Contact"
+    header:
+      language1: "English"
+      language2: "Vietnamese"
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+  users:
+    new:
+      signup: "Sign up"
+      intro: "This will be a signup page for new users."
