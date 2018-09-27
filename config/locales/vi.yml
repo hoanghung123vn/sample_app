@@ -48,19 +48,30 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
-      users: "Người dùng"
+      users: "Danh sách người dùng"
       account: "Tài khoản"
       profile: "Hồ sơ"
       settings: "Cài đặt"
       log_out: "Đăng xuất"
   users:
     new:
+      signup: "Đăng ký"
+      create: "Tạo tài khoản của tôi "
+    edit:
+      edit_user: "Thay đổi thông tin người dùng"
+      save_changes: "Lưu thay đổi "
+      intro: "Cập nhật hồ sơ của bạn"
+      change: "Thay đổi"
+    form:
       name: "Tên"
       email: "Thư điện tử"
       pwd: "Mật khẩu"
-      signup: "Đăng ký"
       confirmation: "Xác nhận"
-      create: "Tạo tài khoản của tôi "
+    user:
+      delete: "Xóa"
+      confirm: "Bạn có chắc?"
+    index:
+      all_users: "Tất cả người dùng"
   shared:
     error_messages:
       intro: "Biểu mẫu chứa "
@@ -76,3 +87,7 @@ vi:
       new_user: "Người dùng mới? "
       remember: "Nhớ tôi trên máy tính này"
   login_error: "Kết hợp email/mật khẩu không hợp lệ"
+  update_success: "Đã cập nhật hồ sơ"
+  delete_success: "Đã xóa người dùng"
+  please_login: "Xin hãy đăng nhập! "
+  update_fail: "Cập nhật thất bại"

@@ -55,12 +55,23 @@ en:
       log_out: "Log out"
   users:
     new:
+      signup: "Sign up"
+      create: "Create my account "
+    edit:
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      intro: "Update your profile"
+      change: "Change"
+    form:
       name: "Name"
       email: "Email"
       pwd: "Password"
-      signup: "Sign up"
       confirmation: "Confirmation"
-      create: "Create my account "
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    index:
+      all_users: "All users"
   shared:
     error_messages:
       intro: "The form contains "
@@ -76,3 +87,7 @@ en:
       new_user: "New user? "
       remember: "Remember me on this computer"
   login_error: "Invalid email/password combination"
+  update_success: "Profile updated"
+  delete_success: "User deleted"
+  please_login: "Please log in! "
+  update_fail: "Update failed"
