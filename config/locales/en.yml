@@ -50,5 +50,15 @@ en:
       login: "Log in"
   users:
     new:
+      name: "Name"
+      email: "Email"
+      pwd: "Password"
       signup: "Sign up"
-      intro: "This will be a signup page for new users."
+      confirmation: "Confirmation"
+      create: "Create my account "
+  shared:
+    error_messages:
+      intro: "The form contains "
+      error: "error"
+  welcome: "Welcome to the Sample App"
+  not_found: "User not found"

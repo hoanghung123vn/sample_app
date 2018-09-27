@@ -50,5 +50,15 @@ vi:
       login: "Đăng nhập"
   users:
     new:
+      name: "Tên"
+      email: "Thư điện tử"
+      pwd: "Mật khẩu"
       signup: "Đăng ký"
-      intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+      confirmation: "Xác nhận"
+      create: "Tạo tài khoản của tôi "
+  shared:
+    error_messages:
+      intro: "Biểu mẫu chứa "
+      error: "lỗi"
+  welcome: "Chào mừng đến với Ưng dụng mẫu"
+  not_found: "Không tìm thấy người dùng"
