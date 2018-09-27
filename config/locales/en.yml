@@ -48,6 +48,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
   users:
     new:
       name: "Name"
@@ -62,3 +67,11 @@ en:
       error: "error"
   welcome: "Welcome to the Sample App"
   not_found: "User not found"
+  sessions:
+    new:
+      login: "Log in"
+      signup_now: "Sign up now"
+      email: "Email"
+      pwd: "Password"
+      new_user: "New user? "
+  login_error: "Invalid email/password combination"

@@ -48,6 +48,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
   users:
     new:
       name: "Tên"
@@ -62,3 +67,11 @@ vi:
       error: "lỗi"
   welcome: "Chào mừng đến với Ưng dụng mẫu"
   not_found: "Không tìm thấy người dùng"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      signup_now: "Đăng ký ngay"
+      email: "Thư điện tử"
+      pwd: "Mật khẩu"
+      new_user: "Người dùng mới? "
+  login_error: "Kết hợp email/mật khẩu không hợp lệ"
