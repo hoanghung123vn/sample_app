@@ -3,7 +3,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
     flash[:danger] = t "not_found"
-    redirect_to signup_path
+    redirect_to login_path
   end
 
   def new
