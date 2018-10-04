@@ -6,6 +6,10 @@ vi:
       intro1: "Đây là trang chủ của "
       intro2: "ứng dụng mẫu."
       ruby_on_rails_tutorial: "Hướng dẫn Ruby On Rails"
+      welcome: "Chào mừng đến với Ưng dụng mẫu"
+      intro3: "Đây là trang chủ cho "
+      intro4: "ứng dụng mẫu."
+      signup: "Đăng ký ngay!"
     help:
       title: "Trợ giúp"
       intro1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại "
@@ -28,3 +32,23 @@ vi:
       intro4: "để dạy phát triển web với"
       intro5: "Đây là ứng dụng mẫu cho hướng dẫn"
   sample_app: "Hướng dẫn ứng dụng mẫu với Ruby On Rails"
+  layouts:
+    footer:
+      the: ""
+      by: "bởi"
+      name: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      news: "Tin tức"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+    header:
+      language1: "Tiếng Anh"
+      language2: "Tiếng Việt"
+      sample_app: "ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+  users:
+      new:
+        signup: "Đăng nhập"
+        intro: "Đây sẽ là trang đăng ký cho người dùng mới."
