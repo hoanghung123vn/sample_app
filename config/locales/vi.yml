@@ -49,6 +49,6 @@ vi:
       help: "Trợ giúp"
       login: "Đăng nhập"
   users:
-      new:
-        signup: "Đăng nhập"
-        intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+    new:
+      signup: "Đăng ký"
+      intro: "Đây sẽ là trang đăng ký cho người dùng mới."
