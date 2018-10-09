@@ -2,14 +2,14 @@
 <h1><%= t ".sample"%></h1>
 <p>
   <%= t ".intro1" %>
-  <%= link_to  t(".ruby_on_rails_tutorial") ,"http://www.railstutorial.org/"%>
+  <%= link_to  t(".ruby_on_rails_tutorial") ,"http://www.railstutorial.org/" %>
   <%= t ".intro2" %>
 </p>
 <div class="center jumbotron">
   <h1><%= t ".welcome" %></h1>
   <h2>
     <%= t ".intro3" %>
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    <%= link_to t(".ruby_on_rails_tutorial"), "http://www.railstutorial.org/" %>
     <%= t ".intro4" %>
   </h2>
   <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
