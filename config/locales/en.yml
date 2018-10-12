@@ -74,4 +74,5 @@ en:
       email: "Email"
       pwd: "Password"
       new_user: "New user? "
+      remember: "Remember me on this computer"
   login_error: "Invalid email/password combination"

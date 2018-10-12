@@ -74,4 +74,5 @@ vi:
       email: "Thư điện tử"
       pwd: "Mật khẩu"
       new_user: "Người dùng mới? "
+      remember: "Nhớ tôi trên máy tính này"
   login_error: "Kết hợp email/mật khẩu không hợp lệ"
