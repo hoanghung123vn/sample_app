@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.paginate(page: params[:page], per_page: Settings.per_page)
+    @users = User.paginate page: params[:page], per_page: Settings.per_page
   end
 
   def show
@@ -21,9 +21,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "require_check_email"
+      redirect_to root_url
     else
       render :new
     end
@@ -35,7 +35,7 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find_by params[:id]
-    if @user.update_attributes(user_params)
+    if @user.update user_params
       flash[:success] = t "update_success"
       redirect_to @user
     else
@@ -52,29 +52,24 @@ class UsersController < ApplicationController
 
   private
 
-    def user_params
-      params.require(:user).permit(:name, :email, :password, :password_confirmation)
-    end
+  def user_params
+    params.require(:user).permit :name, :email, :password,
+      :password_confirmation
+  end
 
-    # Before filters
+  def logged_in_user
+    return if logged_in?
+    store_location
+    flash[:danger] = t "please_login"
+    redirect_to login_url
+  end
 
-    # Confirms a logged-in user.
-    def logged_in_user
-      unless logged_in?
-        store_location
-        flash[:danger] = t "please_login"
-        redirect_to login_url
-      end
-    end
+  def correct_user
+    @user = User.find_by params[:id]
+    redirect_to(root_url) unless current_user?(@user)
+  end
 
-    # Confirms the correct user.
-    def correct_user
-      @user = User.find_by(params[:id])
-      redirect_to(root_url) unless current_user?(@user)
-    end
-
-    # Confirms an admin user.
-    def admin_user
-      redirect_to(root_url) unless current_user.admin?
-    end
+  def admin_user
+    redirect_to(root_url) unless current_user.admin?
+  end
 end
