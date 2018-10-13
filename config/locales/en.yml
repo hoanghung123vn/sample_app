@@ -91,3 +91,14 @@ en:
   delete_success: "User deleted"
   please_login: "Please log in! "
   update_fail: "Update failed"
+  activated: "Account activated!"
+  link_invalid: "Invalid activation link"
+  not_activated_check_email: "Account not activated.
+    Check your email for the activation link. "
+  require_check_email: "Please check your email to activate your account."
+  subject: "Account activation"
+  hi: "Hi"
+  sample: "Sample App"
+  click_to_activate: "Welcome to the Sample App! Click on the link below to
+    activate your account:"
+  activate: "Activate"
