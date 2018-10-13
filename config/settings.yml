@@ -3,3 +3,5 @@ maximum:
   email: 255
   password: 6
 size: 80
+img_size: 50
+per_page: 5
