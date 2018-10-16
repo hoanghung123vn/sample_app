@@ -91,3 +91,18 @@ vi:
   delete_success: "Đã xóa người dùng"
   please_login: "Xin hãy đăng nhập! "
   update_fail: "Cập nhật thất bại"
+  activated: "Đã kích hoạt tài khoản!"
+  link_invalid: "Liên kết kích hoạt không chính xác"
+  not_activated_check_email: "Tài khoản chưa được kích hoạt.
+    Kiểm tra thư điện tử của bạn để biết liên kết kích hoạt. "
+  require_check_email: "Xin hãy kiểm tra thư điện tử của bạn để kích hoạt
+    tài khoản"
+  subject: "Kích hoạt tài khoản"
+  hi: "Chào"
+  sample: "Ưng dụng mẫu"
+  click_to_activate: "Chào mừng đến với ứng dụng mẫu! Nhấp vào liên kết bên dưới
+    để kích hoạt tài khoản của bạn"
+  activate: "Kích hoạt"
+  will_paginate:
+    next_label: "Trang sau"
+    previous_label: "Trang trước"
